@@ -1,14 +1,8 @@
-ninjas = ['ryu', 'crystal', 'yoshi', 'ken']
+age = 25
+num = 0
 
-# for ninja in ninjas:
-#     print(ninja)
 
-# for ninja in ninjas[1:3]:
-#     print(ninja)
-
-for ninja in ninjas:
-    if ninja == 'yoshi':
-        print(f'{ninja} - black belt')
-        break
-    else:
-        print(ninja)
+while num < age:
+    #block of code
+    print(num)
+    num +=1
