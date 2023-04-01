@@ -1,7 +1,11 @@
-def greet(name = 'NAME', time = 'TIME'):
-    print(f'Good {time} {name}, hope u good')
+def area(radius = 3):
+    return(3.14 * radius * radius)
 
-# time = input('Whats the time of the day')
-# name = input('Whats your name')
+def vol(area, length):
+    print(area* length)
 
-greet(time='afternoon')
+radius = int(input("Enter radius: "))
+length = int(input("enter length: "))
+
+
+vol(area(radius), length)
