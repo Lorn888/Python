@@ -9,7 +9,7 @@ class Planet:
 
     def orbit(self):
         return f'{self.name} is orbiting in the {self.system}'
-
+    #decorators extand the behaviour of the functio
     @classmethod
     def commons(cls):
         return f'All planets are {cls.shape} because of gravity'
